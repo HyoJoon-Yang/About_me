@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body class="w3-content" style="max-width:1300px">
+
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>INFJ =</h1>
+    </div>
+    <div class="w3-padding-64">
+      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
+      <a href="#now" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Now</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">My Work</a>
+      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
+    </div>
+  </div>
+  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1>About Me</h1>
+                  <img src="data:image/png;base64,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"
+                    class="w3-margin w3-circle" alt="Person" style="width:40%" >
+      <div class="w3-left-align w3-padding-large">
+        <h4 style="text-align: center;">안녕하세요, [양효준]입니다</h4>
+        <ul>
+            <h6>Favorite</h6>
+            <li class="w3-margin w3-circle">책과 영화, 해당 주제에 대한 대화</li>
+            <li class="w3-margin w3-circle"> 일본 음식(특히 라멘)</li>
+            <li class="w3-margin w3-circle"> 계절스포츠, 골프, 캠핑</li>
+        </ul>
+     
+        <p></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid: Work & Resume -->
+<div class="w3-row">
+  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="now">
+    <div class="w3-padding-64">
+        <h2>Now</h2>
+        <div style="border: 1px solid #ccc; margin: 10px; ">     
+           <p><i>Want</i></p>
+        선수들의 퍼포먼스 향상을 위한 멘탈 코칭을 하며 무엇보다 중요하다고 느낀점은 의지보다 강력한 환경을 구축하는 것입니다</br>
+        따라서 필요하다고 느껴지는 시스템을 구현하고, 보다 체계적인 도구의 활용을 프로그래밍을 통해 얻고자 개발 공부를 시작했습니다 </br>
+         
+        </div>
+        <div style="border: 1px solid #ccc; margin: 10px; ">     
+        <p><i>Changed</i></p>
+        ... 업데이트 예정...</br>
+      </div>
+    </div>
+    <div class="w3-row">
+      <div class="w3-half">
+      </div>
+      <div class="w3-half">
+      </div>
+    </div>
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+      </div>
+      <div class="w3-half">
+      </div>
+    </div>
+
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+      </div>
+      <div class="w3-half">
+      </div>
+    </div><br>
+  </div>
+  <div class="w3-half w3-indigo w3-container" style="min-height:800px">
+    <div class="w3-padding-64 w3-center" id="work">
+      <h2>My Work</h2>
+      <p>Before</p>
+      <div class="w3-container w3-responsive">
+        <table class="w3-table">
+            <tr>
+                <th>Year</th>
+                <th>Title</th>
+                <th>Where</th>
+              </tr>
+              <tr class="w3-white">
+                <td>2022 ~ </td>
+                <td> AI Bootcamp </td>
+                <td>PlayData</td>
+              </tr>
+              <tr class="w3-hide-medium">
+                <td>2022-2022</td>
+                <td>Sports Mental coach</td>
+                <td>Seoul HighSchool Baseball Team </td>
+              </tr>
+              <tr class="w3-white">
+                <td>2020-2022</td>
+                <td>Sports Mental coach</td>
+                <td>Doosan Bears Baseball Team </td>
+              </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid: Swing By & Contact -->
+<div class="w3-row" id="contact">
+  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Swing By</h1>
+    </div>
+    <div class="w3-padding-64">
+        <p>..for a cup of coffee, or whatever.</p>
+        <p>Goyang, KR</p>
+        <p>+82 01058985477</p>
+        <p>hyojoon.tech@gmail.com</p>
+        <p><a href="https://github.com/HyoJoon-Yang">Github</a></p>
+        <a href="https://www.instagram.com/j00n_nee_/">instagram</a>
+  
+    </div>
+  </div>
+  <div class="w3-half w3-teal w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-padding-large">
+      <h1>Contact</h1>
+      <p class="w3-opacity">GET IN TOUCH</p>
+      <form class="w3-container w3-card w3-padding-32 w3-white" action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Name">
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Email">
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Message">
+        </div>
+        <button type="submit" class="w3-button w3-teal w3-right">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16">
+  <p>By HyoJoon </p>
+</footer>
+
+</body>
+</html>
